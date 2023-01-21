@@ -1,10 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./htmpages/*/*{.html,js}',
+  content: ['./htmlpages/*/*{.html,.js}',
     './htmlpages/index.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playfair: [
+          'Playfair'
+        ],
+        charm: [
+          'Charm'
+        ],
+        poppins: [
+          'Poppins'
+        ]
+      },
+    },
   },
   plugins: [],
 }
