@@ -528,6 +528,10 @@ video {
   text-align: center;
 }
 
+.font-poppins{
+  font-family: Poppins;
+}
+
 .font-sans{
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -546,10 +550,6 @@ video {
 
 .font-charm{
   font-family: Charm;
-}
-
-.font-poppins{
-  font-family: Poppins;
 }
 
 .text-xs{
@@ -615,6 +615,30 @@ video {
 .text-9xl{
   font-size: 8rem;
   line-height: 1;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .text-red-600{
